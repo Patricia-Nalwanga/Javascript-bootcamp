@@ -37,6 +37,10 @@ if (firstBMIMark > firstBMIJohn) {
 } else {
   console.log("John's BMI is higher than Mark's!");
 }
+//  examples of type coersion
+console.log("I am" + 23 + "years old");
+console.log("23" - "10" - 3);
+
 // for data2
 // const secondMassMark = 95;
 // const secondHeightMark = 1.88;
