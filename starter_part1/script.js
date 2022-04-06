@@ -25,28 +25,28 @@
 // const secondBMIJohn = secondMassJohn / (secondHeightJohn * secondHeightJohn);
 // console.log(secondBMIJohn);
 
-// // Coding challenge 1
-// // for data1
-// const firstMassMark = 78;
-// const firstHeightMark = 1.69;
-// const firstBMIMark = firstMassMark / (firstHeightMark * firstHeightMark);
-// console.log(firstBMIMark);
+// Coding challenge 1
+// for data1
+const firstMassMark = 78;
+const firstHeightMark = 1.69;
+const firstBMIMark = firstMassMark / (firstHeightMark * firstHeightMark);
+console.log(firstBMIMark);
 
-// const firstMassJohn = 92;
-// const firstHeightJohn = 1.95;
-// const firstBMIJohn = firstMassJohn / (firstHeightJohn * firstHeightJohn);
-// console.log(firstBMIJohn);
+const firstMassJohn = 92;
+const firstHeightJohn = 1.95;
+const firstBMIJohn = firstMassJohn / (firstHeightJohn * firstHeightJohn);
+console.log(firstBMIJohn);
 
-// const markHigherBMI = firstBMIMark > firstBMIJohn;
-// console.log(markHigherBMI);
+const markHigherBMI = firstBMIMark > firstBMIJohn;
+console.log(markHigherBMI);
 
-// if (firstBMIMark > firstBMIJohn) {
-//   console.log(
-//     `Mark's BMI(${firstBMIMark}) is higher than John's(${firstBMIJohn})!`
-//   );
-// } else {
-//   console.log("John's BMI is higher than Mark's!");
-// }
-// //  examples of type coersion
-// console.log("I am" + " " + 23 + " " + "years old");
-// console.log("23" - "10" - 3);
+if (firstBMIMark > firstBMIJohn) {
+  console.log(
+    `Mark's BMI(${firstBMIMark}) is higher than John's(${firstBMIJohn})!`
+  );
+} else {
+  console.log("John's BMI is higher than Mark's!");
+}
+//  examples of type coersion
+console.log("I am" + " " + 23 + " " + "years old");
+console.log("23" - "10" - 3);
