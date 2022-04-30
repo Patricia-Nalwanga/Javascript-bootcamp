@@ -25,7 +25,7 @@ if (dolphinsAverageScore > koalasAverageScore) {
   console.log("Dolphins team is the winner");
 } else if (dolphinsAverageScore === koalasAverageScore) {
   console.log("It's a draw");
-} else {
+} else if (koalasAverageScore > dolphinsAverageScore) {
   console.log("Koalas team is the winner");
 }
 
@@ -40,6 +40,22 @@ if (dolphinScore > koalasScore && dolphinScore >= 100) {
   console.log("....Dolphin is the winner");
 } else if (koalasScore > dolphinScore && koalasScore >= 100) {
   console.log("....Koala is the winner");
-} else {
+} else if (koalasScore === dolphinScore) {
   console.log("it is a draw");
+}
+// bonus2
+const dolphinMinScore = (97 + 112 + 101) / 3;
+console.log(`Dolphin's minimum score is ${dolphinMinScore}.`);
+
+const koalasMinScore = (109 + 95 + 106) / 3;
+console.log(`Koala's minimimum score is ${koalasMinScore}. `);
+
+if (
+  dolphinMinScore === koalasMinScore &&
+  dolphinMinScore >= 100 &&
+  koalasMinScore >= 100
+) {
+  console.log("It is a draw");
+} else {
+  console.log("Noone takes the trophy home");
 }
