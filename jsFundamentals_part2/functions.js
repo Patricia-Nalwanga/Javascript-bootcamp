@@ -63,7 +63,7 @@ const checkWinner = function (avgDolphins, avgKoalas) {
 const winner = checkWinner(dolphinsAvscore, koalasAvscore);
 console.log(winner);
 
-dolphinsAvscore = calcAverage(85, 54, 41);
-koalasAvscore = calcAverage(23, 34, 27);
+// dolphinsAvscore = calcAverage(85, 54, 41);
+// koalasAvscore = calcAverage(23, 34, 27);
 
-checkWinner(dolphinsAvscore, koalasAvscore);
+// console.log(checkWinner(dolphinsAvscore, koalasAvscore));
