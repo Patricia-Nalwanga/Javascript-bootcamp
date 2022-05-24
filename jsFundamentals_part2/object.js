@@ -53,3 +53,36 @@ const jonas = {
 };
 
 console.log(jonas.getSummary());
+
+// coding challenge3 of part2
+const johnSmith = {
+  firstName: "John",
+  lastName: "Smith",
+  mass: 92,
+  height: 1.95,
+  //calcBMI method
+  calcBMI: function () {
+    this.BMI = this.mass / this.height ** 2;
+    return this.BMI;
+  },
+};
+
+const markMiller = {
+  firstName: "Mark",
+  lastName: "Miller",
+  mass: 78,
+  height: 1.69,
+  //calcBMI method
+  calcBMI: function () {
+    this.BMI = this.mass / this.height ** 2;
+    return this.BMI;
+  },
+};
+
+console.log(
+  `${
+    johnSmith.calcBMI() > markMiller.calcBMI()
+      ? `John's BMI(${johnSmith.calcBMI()})is higher than Mark's(${markMiller.calcBMI()})`
+      : `Mark's BMI(${markMiller.calcBMI()}) is higher than John's(${johnSmith.calcBMI()})`
+  }`
+);
