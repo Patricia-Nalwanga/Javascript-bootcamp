@@ -15,6 +15,11 @@ const jonasArray = [
 ];
 console.log(jonasArray.length);
 
+// looping backwards
+for (let i = jonasArray.length - 1; i >= 0; i--) {
+  console.log(jonasArray[i]);
+}
+
 const types = [];
 for (let i = 0; i < jonasArray.length; i++) {
   console.log(jonasArray[i]);
