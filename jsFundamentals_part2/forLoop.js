@@ -54,3 +54,30 @@ for (let i = 0; i < jonasArray.length; i++) {
 
   console.log(jonasArray[i], typeof jonasArray[i]);
 }
+
+//coding challenge 4,part2
+const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+
+const tips = [];
+const totals = [];
+
+const calcTip = function (bill) {
+  if (bill >= 50 && bill <= 300) {
+    const tip = 0.15 * bill;
+
+    return tip;
+  } else {
+    const tip = 0.2 * bill;
+
+    return tip;
+  }
+};
+
+for (let i = 0; i < bills.length; i++) {
+  const tip = calcTip(bills[i]);
+  tips.push(tip);
+  totals.push(bills[i] + tip);
+}
+
+console.log(`${tips}, 
+${totals}`);
