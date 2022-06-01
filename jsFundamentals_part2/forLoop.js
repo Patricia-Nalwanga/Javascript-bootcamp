@@ -81,3 +81,17 @@ for (let i = 0; i < bills.length; i++) {
 
 console.log(`${tips}, 
 ${totals}`);
+
+// bonus challenge
+let sum = 0;
+
+for(let i=0; i<totals.length; i++){
+  sum = sum + totals[i];
+
+}
+
+const calcAverage = function(arr){
+  return sum/arr.length;
+}
+
+console.log(calcAverage(totals));
