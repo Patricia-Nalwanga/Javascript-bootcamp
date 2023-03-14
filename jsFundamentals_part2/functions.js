@@ -67,3 +67,5 @@ console.log(winner);
 // koalasAvscore = calcAverage(23, 34, 27);
 
 // console.log(checkWinner(dolphinsAvscore, koalasAvscore));
+
+
