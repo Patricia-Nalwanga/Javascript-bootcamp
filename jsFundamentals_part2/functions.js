@@ -34,6 +34,20 @@ const yearsUntilRetirement = (firstName, birthyr) => {
 console.log(yearsUntilRetirement("Cynthia", 2006));
 
 // functions calling other functions*/
+function cutFruitPieces(fruit){
+  return fruit * 4
+
+}
+
+function fruitProcessor(apples, oranges){
+ const applePieces = cutFruitPieces(apples);
+ const ornagePieces = cutFruitPieces(oranges);
+
+  const juice = `Juice with ${applePieces} pieces of apple and ${ornagePieces} pieces of oranges.`
+  return juice;
+}
+
+console.log(fruitProcessor(2,3));
 
 // coding challenge 1 part2
 const calcAverage = (a, b, c) => {
