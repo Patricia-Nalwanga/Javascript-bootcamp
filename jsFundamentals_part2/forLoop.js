@@ -95,3 +95,9 @@ const calcAverage = function(arr){
 }
 
 console.log(calcAverage(totals));
+
+const friends = ['Micheal','Steven','Peter'];
+
+for(let i=0; i<friends.length; i++ ){
+  console.log(friends[i]);
+}
